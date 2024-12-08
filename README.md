@@ -18,3 +18,4 @@ To use this application, open the `index.html` file in a web browser.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-steamgx/shopping-list-app.git
+# week-2-challange
