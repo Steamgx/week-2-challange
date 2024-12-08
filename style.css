@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+/* Header styling */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5rem;
+    transition: background-color 0.3s ease;
+}
+
+body.dark-mode h1 {
+    background-color: #2E7D32;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+body.dark-mode button {
+    background-color: #2E7D32;
+}
+
+body.dark-mode button:hover {
+    background-color: #1B5E20;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+body.dark-mode input[type="text"] {
+    background-color: #444;
+    color: #f9f9f9;
+    border: 1px solid #666;
+}
+
+/* Shopping list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+body.dark-mode ul li {
+    background-color: #444;
+    border: 1px solid #666;
+}
+
+body.dark-mode ul li:hover {
+    background-color: #555;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode p {
+    color: #bbb;
+}
